@@ -21,7 +21,7 @@ const LanguageSelectionComponent: React.FC<Props> = ({Options, label, setSelecte
             }).format(new Date()).toString();
             
             setSelectedCurrentTime(currentTime);   
-            console.log(currentTime);
+            console.log("Current time: ", currentTime);
         }
 
         if (language === "Click to see options") {

@@ -2,11 +2,26 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  color: #334155;
+  color: #ffffff;
 
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.main__wrapper {
+  background: linear-gradient(140deg, #c026d3 0%, #7c3aed 50%, #0284c7 75%);;
+  padding: 1rem 2rem;
+  min-height: 300px;
+  border: none;
+  border-radius: 0.8rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.main__wrapper h1 {
+  font-size: 2rem;
+  font-weight: 500;
 }
 
 .dropdown__wrapper {
@@ -16,7 +31,7 @@ body {
 }
 
 .select__element {
-  max-width: 50%;
+  width: 50%;
   height: 100%;
   padding: 0.5rem;
   margin-bottom: 1rem;
@@ -24,6 +39,8 @@ body {
   border: 2px solid rgb(100, 116, 139, 0.5);
   box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
   outline: none;
+  border: none;
+  transition: all 0.3s ease-in-out;
 }
 
 .selected__default {
@@ -33,4 +50,10 @@ body {
 .select__options {
   color: #334155;
   font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .select__element {
+    width: 100%;
+  }
 }

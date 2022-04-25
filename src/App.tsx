@@ -30,7 +30,7 @@ const App: React.FC = () => {
     const [selectedCurrentTime, setSelectedCurrentTime] = useState<string>("");
 
     return (
-      <div>
+      <div className='main__wrapper'>
         <h1>Get current time based on the selected language's timezone.</h1>
 
         <LanguageSelectionComponent  
