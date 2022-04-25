@@ -24,6 +24,18 @@ const Options: languageAndTimeZone[] = [
 		"language": "pt-BR",
 		"timezone": "America/Sao_Paulo",
 	},	
+	{
+		"language": "fr-FR",
+		"timezone": "Europe/Paris",
+	},
+	{
+		"language": "ja-JP",
+		"timezone": "Asia/Tokyo",
+	},
+	{
+		"language": "zh-CN",
+		"timezone": "Asia/Shanghai",
+	},
 ]
 
 const App: React.FC = () => {
